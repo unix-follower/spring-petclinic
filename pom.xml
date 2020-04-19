@@ -281,6 +281,8 @@
           <version>3.7.0.1746</version>
       </plugin>
     </plugins>
+
+    <finalName>${project.name}##${project.version}.${BUILD_NUMBER}</finalName>
   </build>
 
   <!-- Apache 2 license -->
